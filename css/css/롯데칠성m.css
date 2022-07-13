@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.a1 {
+
+    background-color: #fff;
+
+    border-width: 100%;
+    width: 100%;
+
+}
+
+
+.t1 {
+
+
+    text-align: center;
+
+    padding: 20px 0px;
+
+
+}
+
+.t2 {
+
+
+    text-align: center;
+
+    padding: 20px 0px;
+
+
+}
+
+.t3 {
+    padding: 20px 0px;
+
+}
+
+.t4 {
+    padding: 20px 0px;
+
+}
+
+.a2 {
+
+    width: 100%;
+
+
+}
+
+
+.box1 {
+    text-align: center;
+    background-size: contain;
+
+    margin:250px 0;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+
+}
+
+.box2 {
+    text-align: center;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    margin:-700px 0;
+  
+}
+
+.box3 {
+    text-align: center;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    margin:300px 0;
+}
+
+.v {
+    margin: 70% 0;
+}

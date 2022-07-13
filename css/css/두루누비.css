@@ -1,0 +1,577 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* header {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 120px;
+    justify-content: space-between;
+} */
+
+header {
+    width: 1200px;
+    height: 127px;
+
+    margin: 0 auto;
+
+
+}
+
+.w3>img {
+    width: 200px;
+    margin: 18px 500px 0px 16px;
+}
+
+.w1 {
+    list-style: none;
+    display: flex;
+    margin: 6px 0 0 0;
+
+
+}
+
+.w2 {
+    list-style: none;
+    display: flex;
+    margin: -21px 0 0 850px;
+}
+
+.w3 {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.w3>li {
+    margin: 77px 0 0 0;
+}
+
+.a1 {
+    background-image: url(../img/두루누비배경.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 450px;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.a1>.aa1 {
+    margin: 0 auto;
+    display: flex;
+}
+
+.t1,
+.t2,
+.t3 {
+    font-size: 25px;
+    color: #fff;
+    width: 292px;
+    height: 68px;
+    text-align: center;
+    line-height: 40px;
+    margin: 35px 49px 0 22px;
+    font-weight: bold;
+
+
+
+
+
+}
+
+
+.t2 {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+
+.m1 {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+
+}
+
+.box1 {
+    background-image: url(../img/두루누비2.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 140px;
+    color: #fff;
+
+}
+
+.box1>p {
+    margin: 45px 0 0 0;
+}
+
+.box2 {
+    background-image: url(../img/두루누비3.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 140px;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.box2>p {
+    margin: 36px 0 0 0;
+}
+
+.box3 {
+    background-image: url(../img/두루누비4.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 140px;
+    color: #fff;
+}
+
+.box3>p {
+    margin: 45px 0 0 0;
+}
+
+.box4 {
+    background-image: url(../img/두루누비5.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 140px;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.box4>p {
+    margin: 45px 0 0 0;
+}
+
+.allbox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 106px auto 0 0;
+}
+
+
+.box5 {
+    width: 262px;
+    height: 208px;
+    background-size: 262px;
+    background-image: url(../img/11.png);
+    background-repeat: no-repeat;
+
+}
+
+.box5>p {
+    margin: 140px 160px 0 7px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.a22>.box5>p>span {
+    font-size: 10px;
+    color: rgb(20, 211, 20);
+    font-weight: bold;
+}
+
+.box6 {
+    width: 262px;
+    height: 208px;
+    background-size: 262px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/22.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.box6>p {
+    margin: 140px 140px 0 8px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.a22>.box6>p>span {
+    font-size: 10px;
+    color: rgb(56, 59, 209);
+    font-weight: bold;
+}
+
+
+.box5,
+.box6,
+.box7 {
+    margin: 1px 20px 1px 18px;
+    border-style: outset;
+}
+
+header>img {
+    width: 200px;
+    height: 200px;
+}
+
+.box7 {
+    width: 262px;
+    height: 208px;
+    background-size: 262px;
+    background-image: url(../img/33.png);
+    background-repeat: no-repeat;
+}
+
+.box7>p {
+    margin: 143px 140px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.a22>.box7>p>span {
+    font-size: 10px;
+    color: rgb(56, 59, 209);
+    font-weight: bold;
+}
+
+.a2>.a22 {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: 9px auto;
+
+}
+
+
+
+.bt1 {
+    width: 160px;
+    height: 35px;
+    margin: 0;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(62, 184, 62);
+    color: #fff;
+}
+
+.bt2 {
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgb(39, 93, 173);
+    color: #fff;
+}
+
+.ww {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 8px 0 0;
+
+
+}
+
+.a2>h3 {
+    width: 158px;
+    margin: 29px auto 0;
+    text-align: center;
+    background: linear-gradient(to right, #2BC63E, #1553A3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box8,
+.box9,
+.box10 {
+    display: flex;
+    width: 280px;
+    height: 150px;
+    margin: 74px 10px 0 0;
+}
+
+.box8 {
+    background-image: url(../img/등산안내도.png);
+    background-repeat: no-repeat;
+    background-size: 310px;
+    width: 310px;
+    height: 178px;
+    margin: 0px;
+}
+
+.box9 {
+    background-image: url(../img/탐방구간.png);
+    background-repeat: no-repeat;
+    margin: 0 10px 0 10px;
+    background-size: 310px;
+    width: 310px;
+    height: 178px;
+}
+
+.box10 {
+    background-image: url(../img/수통골코스.png);
+    background-repeat: no-repeat;
+    background-size: 310px;
+    width: 310px;
+    height: 178px;
+    margin: 0px;
+}
+
+
+.box8>p {
+    margin: 80px 0 0 5px;
+    color: #fff;
+}
+
+.box9>p {
+    margin: 80px 0 0 5px;
+    color: #fff;
+}
+
+.box10>p {
+    margin: 80px 0 0 5px;
+    color: #fff;
+}
+
+
+
+.a2 {
+    height: 350px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #F5F7FE;
+
+}
+
+.www {
+    display: flex;
+    margin: 52px 14px 0 0px;
+}
+
+.a3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    background-color: #F5F7FE;
+    height: 247px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.a4 {
+
+    height: 235px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #F5F7FE;
+}
+
+.a5 {
+
+    height: 120px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: lightslategray;
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+
+.gg1 {
+    background-color: #1553A3;
+    width: 50%;
+    height: 120px;
+    font-size: 15px;
+    color: #fff;
+    padding: 9px 0 0 71px;
+}
+
+.gg1>span {
+    font-size: 10px;
+}
+
+.gg2 {
+    background-color: #F5F7FE;
+    width: 50%;
+    height: 120px;
+    font-size: 15px;
+    padding: 9px 0 0 6px;
+    display: flex;
+}
+
+.gg2>span {
+    font-size: 10px;
+}
+
+.a5>.gg1>p {
+    margin: 0 1px;
+    color: #fff;
+}
+
+.bb1 {
+    margin: 0 200px 0 0;
+}
+
+.bb1 , .bb2 {margin: 20px 0 0 0;}
+.yy1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    border-style: solid;
+    border-color: rgb(37, 233, 11);
+    background-color: rgb(37, 233, 11);
+    height: 170px;
+
+}
+
+
+.a3>.yy>.tm {
+    font-size: 20px;
+    width: 200px;
+    margin: 68px 0px 0px 0;
+    text-align: right;
+
+
+}
+
+.v11 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.v22 {
+    text-decoration: underline;
+}
+
+.v33 {
+    font-size: 10px;
+}
+
+#g1 {
+    font-size: 10px;
+}
+
+.q1,
+.q2,
+.q3 {
+    margin: 81px auto;
+    width: 150px;
+    height: 50px;
+}
+
+.q2 {
+    margin: 0 auto;
+}
+
+.q1>p {
+    width: 150px;
+ 
+
+}
+
+.q2>p {
+    width: 150px;
+    
+}
+
+
+.q3>p {
+    width: 150px;
+ 
+}
+
+#sns {
+    font-weight: bold;
+    margin: 0 auto 28px 0;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    background: linear-gradient(to right, #2BC63E, #1553A3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.a3>.yy>span {
+    margin: 10px 0 0 0;
+}
+
+.yy1>p {
+    margin: 15px 0 0 0;
+    font-size: 10px;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.a6 {
+    display: flex;
+    font-size: 5px;
+    height: 40px;
+    text-align: left;
+    margin: 14px 0 0 71px;
+}
+
+.a7 {
+    font-size: 5px;
+    margin: 56px 0 0 0;
+    text-align: left;
+    height: 40px;
+}
+
+.footer>.a6>.bb {
+    border-style: solid;
+    border-color: #fff;
+    width: 100px;
+    height: 35px;
+}
+
+.aa1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.aa1>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

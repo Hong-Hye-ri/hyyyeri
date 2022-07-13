@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+.all {
+    display: flex;
+    width: 1184px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navi {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.navi>.login {
+    margin-right: 30px;
+}
+
+.logo>img {
+    width: 250px;
+    height: 144px;
+}
+
+.mainmenu {
+    display: flex;
+    width: 800px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+
+}
+
+.mainmenu>li {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mainmenu>li>a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.mainmenu>li>ul {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 107px;
+
+}
+
+.mainmenu>li>ul>li>a {
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFF;
+
+}
+
+.mainmenu>li>ul>li>a:hover {
+    border: solid rgba(143, 140, 140, 0.575) 2px;
+}
+
+.mainmenu~div {
+    width: 1184px;
+    height: 220px;
+    background-color: #FFF;
+    position: absolute;
+    z-index: 5;
+    top: 107px;
+
+
+}
+
+.aa2>p>span {
+    color: red;
+    font-weight: bolder;
+}
+
+.slide {
+    margin: 0 auto;
+    width: 1319px;
+    height: 470px;
+
+}
+
+.a1 {
+    display: flex;
+    justify-content: center;
+    height: 446px;
+}
+
+.abox {
+    background-image: url(../card/네이버현대.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 596px;
+    height: 446px;
+    display: block;
+    text-indent: -3000px;
+    overflow: hidden;
+}
+
+.bbox {
+    background-image: url(../card/디즈니현대.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 293PX;
+    height: 446px;
+}
+
+.cbox {
+    background-image: url(../card/럭셔리카드.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 295PX;
+    height: 446px;
+}
+
+.dbox {
+    width: 1184px;
+}
+
+.a2 {
+    width: 1150px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.a2>p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.r1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r1>img {
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.r1>img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.a3 {
+    width: 1440px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.a3>.x {
+    display: flex;
+    width: 494px;
+    height: 691px;
+    margin: 0 0 0 300px;
+
+}
+
+.x>.x1 {
+    margin: 0 80px 0 0;
+}
+
+.x>.x2 {
+    margin: 30px 0 0 80px;
+    height: 544px;
+}
+
+.a3>p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 84px 0 153px 0;
+
+}
+
+.a4>ul {
+    list-style: none;
+}
+
+.yy0 {
+    margin: 200px auto;
+    display: flex;
+    width: 720px
+}
+
+.a6 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.a5 {
+    width: 360px;
+}
+
+.a4 {
+    width: 360px;
+}
+
+.a4>ul>.n1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.a4>ul>.n2 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.a4>ul>.n3 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    width: 185px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.a4>ul>.n4 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.a4>.ss {
+    margin: 10px 0 15px 0;
+    color: rgb(22, 67, 218);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.a4>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dbox>.g1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.dbox>.g2 {
+    margin: 0 0 5px 0;
+}
+
+.a5>.dbox>.m1,
+.m2,
+.m3,
+.m4 {
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+.dbox {
+    font-weight: bold;
+    width: 360px;
+}
+
+.ebox {
+    display: flex;
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ebox>p {
+    margin: 19px 0 0 13px;
+}
+
+.fbox>.f1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.fbox>.w1 {
+    display: flex;
+
+}
+
+.fbox>.w1>p {
+    color: rgb(34, 119, 158);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fbox>.w1>p>span {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.fbox>.w2 {
+    display: flex;
+    margin: 10px 0;
+}
+
+.fbox>.w2>p {
+    color: rgb(34, 119, 158);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fbox>.w2>p>span {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.fbox>.w3 {
+    display: flex;
+}
+
+.fbox>.w3>p {
+    color: rgb(34, 119, 158);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fbox>.w3>p>span {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.t1,
+.t2,
+.t3 {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(58, 149, 192);
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t1 {
+    margin: 0px 0 0 69px;
+}
+
+.t2 {
+    margin: 0px 0 0 28px;
+}
+
+footer {
+    height: 270px;
+    width: 100%;
+    background-color: #D6D3D3;
+    margin: 40px auto;
+    text-align: center;
+}

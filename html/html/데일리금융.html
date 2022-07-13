@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .all {
+            width: 1300px;
+            height: 1100px;
+            margin: 35px auto;
+            flex-grow: 1;
+
+
+        }
+
+        .box1 {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .box1>h1 {
+            padding: 0 0 0 16px;
+            background: url(img/정사각형\ c.png) 0 0 no-repeat;
+            width: 129px;
+            margin: 0 auto;
+        }
+
+        .box1>p {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .box2>.a1 {
+
+            background-image: url(img/1번사진.png);
+            width: 283px;
+            height: 209px;
+
+
+        }
+
+
+        .box2 {
+            display: flex;
+            padding: 25px 0;
+        }
+
+        .box2>.a2 {
+            margin: 0 20px 0 20px;
+            color: rgb(68, 67, 67);
+
+        }
+
+        .box2>.a2>p {
+            font-size: 12px;
+            padding: 10px;
+
+        }
+
+        .box2>.a2,
+        .a3,
+        .a4 {
+            width: 280px;
+            height: 209px;
+        }
+
+        .box2>.a2>.o1 {
+            border-style: solid;
+            border-width: 1px;
+            width: 90px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            padding: 0;
+            border-color: rgb(78, 77, 77);
+            color: rgb(78, 77, 77);
+
+        }
+
+        .box2>.a3 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            background-color: grey;
+            color: #fff;
+            padding: 50px 0 0 0;
+
+        }
+
+        .box2>.a4 {
+            color: #fff;
+            margin: 0 41px;
+
+        }
+
+        .box3 {
+            display: flex;
+            padding: 15px 0;
+        }
+
+        .box3>.b1 {
+            background-color: gray;
+            width: 280px;
+            height: 209px;
+            padding: 15px 10px;
+        }
+
+
+        .box3>.b3>h3 {
+            font-size: 30px;
+        }
+
+        .box3>.b1,
+        .b3 {
+            color: #fff;
+        }
+
+        .box3>.b1,
+        .b3 {
+            width: 280px;
+            height: 209px;
+        }
+
+        .box3>.b2 {
+            width: 600px;
+            height: 209px;
+            margin: 0 0 20px 0;
+            overflow: hidden;
+
+        }
+
+        .box3>.b2>img {
+            height: 100%;
+        }
+
+        .box4 {
+            display: flex;
+            padding: 10px 0;
+        }
+
+        .box4>.c3 {
+            background-image: url(img/노을아이폰.png);
+            color: #fff;
+            padding: 15px;
+            margin: 0 41px;
+        }
+
+        .box4>.c4 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            background-color: grey;
+            color: #fff;
+            padding: 50px 0 0 0;
+        }
+
+        .box4>.c2,
+        .c4 {
+            background-color: gray;
+            color: #fff;
+        }
+
+        .box4>.c1,
+        .c2,
+        .c3,
+        .c4 {
+            width: 280px;
+            height: 209px;
+        }
+
+        .box2>.a4 {
+            background-image: url(img/2번사진.png);
+
+            background-repeat: no-repeat;
+            padding: 15px 15px;
+
+        }
+
+
+
+        .box3>.b3 {
+            background-image: url(img/4번사진.png);
+            background-repeat: no-repeat;
+            margin: 0 0 0 41px;
+            padding: 15px 10px;
+
+
+        }
+
+        .box2>.a4>.q1 {
+            padding: 30px 5px;
+        }
+
+        .box4>.c2 {
+            padding: 15px 10px;
+        }
+
+        .box3>.b1>h3 {
+            font-size: 30px;
+        }
+
+        .box2>.a2>h3 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .box2>.a4>h3 {
+            font-size: 30px;
+        }
+
+        .box4>.c2>h3 {
+            font-size: 30px;
+        }
+
+        .box3>.b1>.q3 {
+            border-style: solid;
+            border-width: 1px;
+            width: 105px;
+            height: 27px;
+            margin: 50px 0 0 0;
+        }
+
+        .box3>.b3>.n1 {
+            border-style: solid;
+            border-width: 1px;
+            width: 65px;
+            height: 27px;
+            margin: 50px 0 0 0;
+            text-align: center;
+        }
+
+        .box4>.c2>.n2 {
+            border-style: solid;
+            border-width: 1px;
+            width: 60px;
+            height: 27px;
+            margin: 50px 0 0 0;
+            text-align: left;
+        }
+
+        .box4>.c3>.n3 {
+            border-style: solid;
+            border-width: 1px;
+            width: 60px;
+            height: 27px;
+            margin: 82px 0 0 0;
+            text-align: left;
+        }
+
+        .all .j1 {
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">
+        <h1>D story</h1>
+        <p>"데일리와 핀테크에 대한 다채로운 이야기, D story 입니다."</p>
+    </div>
+    <div class="all">
+        <div class="box2">
+            <div class="a1">
+
+
+            </div>
+            <div class="a2">
+                <h3>NEWS</h3>
+                <P class="j1">[핀테크]내손안에 스마트한’금융비서’....안쓰면손해죠 </P>
+                <P>Jan.2021</P>
+                <P class="o1"> #브로콜리</P>
+            </div>
+            <div class="a3">
+
+
+                <p>일상을<br>풍요롭게 하는<br> 금융
+                <p>
+            </div>
+            <div class="a4">
+                <h3>diary</h3>
+                <p class="j1">#37.2021 ‘ , ‘...</p>
+                <p class="q1">Nov’.2021</p>
+                <p class="q1">#2021</p>
+            </div>
+        </div>
+
+        <div class="box3">
+            <div class="b1">
+                <h3>Dairy</h3>
+                <p class="j1">#35. , top10</p>
+                <p class="q2">
+                    Nov.2021
+
+                </p>
+                <p class="q3">
+                    #DAILY_diary
+                </p>
+            </div>
+            <div class="b2">
+                <img src="img/아이폰.png">
+            </div>
+            <div class="b3">
+                <h3>Focus</h3>
+                <p class="j1">#15.</p>
+                <p>
+                    Nov.2021
+                </p>
+                <p class="n1">#2021</p>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="c1">
+                <img src="img/커피.png" alt="커피">
+            </div>
+            <div class="c2">
+                <h3>
+                    Tech
+                </h3>
+                <p class="j1">
+                    LFT-loopchain consensus algorltm
+                </p>
+                <p>
+                    Jul.2021
+                </p>
+                <p class="n2">#</p>
+            </div>
+            <div class="c3">
+                <h3>DAIList</h3>
+                <p class="j1">Mar.2021</p>
+                <p class="n3">#</p>
+            </div>
+            <div class="c4">
+                <h3>fintech in <br>
+                    DAILI</h3>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+.all {
+    display: flex;
+    width: 1184px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navi {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.navi>.login {
+    margin-right: 30px;
+}
+
+.logo>img {
+    width: 250px;
+    height: 144px;
+}
+
+.mainmenu {
+    display: flex;
+    width: 800px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+
+}
+
+.mainmenu>li {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mainmenu>li>a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.mainmenu>li>ul {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 107px;
+
+}
+
+.mainmenu>li>ul>li>a {
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFF;
+
+}
+
+.mainmenu>li>ul>li>a:hover {
+    border: solid rgba(143, 140, 140, 0.575) 2px;
+}
+
+.mainmenu~div {
+    width: 1184px;
+    height: 220px;
+    background-color: #FFF;
+    position: absolute;
+    z-index: 5;
+    top: 107px;
+
+
+}
+
+.culture1 {
+    background-image: url(../card/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.button {
+    width: 450px;
+    height: 150px;
+    border: solid 5px #fff;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+
+.st {
+    font-size: 25px;
+}
+
+.Super,.record,.Project, .Live{
+    font-size: 50px;
+    font-weight: bold;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.imgs{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imgs>img{
+    width: 394PX;
+}
+footer {
+    height: 270px;
+    width: 100%;
+    background-color: #D6D3D3;
+    margin: 40px auto;
+    text-align: center;
+}
