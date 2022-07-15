@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>현대카드</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="../css/현대카드MX.css">
     <script src="../script/jquery-1.12.4.min.js"></script>
     <script src="../script/hdcard.js"></script>
 </head>
+
 <body>
     <header>
         <div class="all">
@@ -79,7 +82,42 @@
     <section class="a2">
         <img src="/card/현대카드MX.jpg" alt="현대카드mx">
     </section>
+    <section class="a3">
+    <p class="design">원하는 카드 디자인 선택하기</p>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <img src="../card/현대MX1.png" alt="현대MX카드" class="swiper-slide ">
+            <img src="../card/현대MX2.png" alt="현대MX카드" class="swiper-slide ">
+            <img src="../card/현대MX3.png" alt="현대MX카드" class="swiper-slide ">
+            <img src="../card/현대MX4.png" alt="현대MX카드" class="swiper-slide ">
+            <img src="../card/현대MX5.png" alt="현대MX카드" class="swiper-slide ">
+        </div>
+    </div>
+   <a href="#" ><p class="select">발급하기</p></a>
+</section>
+    <section class="a4">
+       <a href="#"> <p class="benefit">혜택 알아보기 ></p></a>
+        <div class="allset">
+            <div class="set">
+                <p>할인</p>
+                <img src="../card/할인 1.png" alt="할인">
+            </div>
+            <div class="set">
+                <p>금융서비스</p>
+                <img src="../card/금융서비스 1.png" alt="금융서비스">
+            </div>
+            <div class="set">
+                <p>무이자 할부</p>
+                <img src="../card/무이자할부 1.png" alt="무이자할부">
+            </div>
+        </div>
+        <p class="MasterCard">VISA/MasterCard 플래티넘서비스
 
+            국내 특급호텔 F&B 할인, 국내 특급호텔 객실 할인 및 <br>우대서비스,
+            면세점 할인, 국내 특급호텔 및 인천국제공항 무료 발레파킹, 렌터카 서비스
+
+        </p>
+    </section>
     <footer>
         <p>
             서울시 영등포구 의사당대로 3 현대캐피탈빌딩 사업자 등록번호213-86-15419 HYUNDAI CARD Corp
@@ -89,5 +127,15 @@
 
         </p>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
 </body>
+
 </html>
