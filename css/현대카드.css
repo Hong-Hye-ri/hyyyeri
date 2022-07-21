@@ -240,7 +240,7 @@ a:visited {
     height: 30px;
     line-height: 30px;
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -252,7 +252,7 @@ a:visited {
     height: 30px;
     line-height: 30px;
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     margin: 10px 0;
 }
@@ -265,7 +265,7 @@ a:visited {
     height: 30px;
     line-height: 30px;
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -277,7 +277,7 @@ a:visited {
     height: 30px;
     line-height: 30px;
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     margin: 10px 0;
 }
@@ -288,10 +288,10 @@ a:visited {
     font-weight: bold;
     font-size: 14px;
 }
-
 .a4>p {
     font-size: 20px;
     font-weight: bold;
+    padding: 20px 0 0 0;
 }
 
 .dbox>.g1 {
@@ -329,6 +329,10 @@ a:visited {
 
 .ebox>p {
     margin: 19px 0 0 13px;
+}
+
+.fbox {
+    margin-top: 40px;
 }
 
 .fbox>.f1 {
